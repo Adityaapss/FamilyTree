@@ -1,0 +1,58 @@
+body {
+    background-color: #f2f2f2;
+    text-align: center;
+  }
+  
+  h1 {
+    color: #333333;
+  }
+  
+  #family-tree {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 30px;
+  }
+  
+  .person {
+    margin: 20px;
+    text-align: center;
+    background-color: #f9f9f9; /* Added colorful background */
+    padding: 20px; /* Added padding */
+    border-radius: 10px; /* Added border radius */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2); /* Added box shadow */
+  }
+  
+  .person img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+  
+  .person button {
+    margin-top: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  .description {
+    display: none;
+    margin-top: 10px;
+    background-color: #ffffff; /* Added a different background color */
+    padding: 10px;
+    border-radius: 4px; /* Added border radius */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2); /* Added box shadow */
+  }
+  title{
+    background-color: aqua;
+    text-decoration: solid;
+  }
